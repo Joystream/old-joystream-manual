@@ -16,3 +16,7 @@ Welcome to Joystream. A user governed video platform.
 - [Validator FAQ](./validators/validator-faq.md)
 - [Validator security considerations](./validators/security.md)
 - [Service Providers](./service-providers.md)
+
+
+Joystream is built on the [Cosmos-SDK/Tendermint](https://github.com/cosmos/cosmos-sdk/) tech.
+This manual is based on the original [documentation](https://github.com/cosmos/cosmos-sdk/tree/develop/docs)
