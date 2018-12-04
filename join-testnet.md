@@ -1,7 +1,7 @@
 # Join the Testnet
 
 ::: tip Current Testnet
-See the [testnet repo](https://github.com/mnaamani/joystream-testnets) for
+See the [testnet repo](https://github.com/joystream/joystream-testnets) for
 information on the latest testnet, including the correct version
 of Joystream to use and details about the genesis file.
 :::
@@ -84,7 +84,7 @@ cp bin/linux_amd64/joy* ~/bin
 :::
 
 Note we use `master` here since it contains the latest stable release.
-See the [testnet repo](https://github.com/mnaamani/joystream-testnets)
+See the [testnet repo](https://github.com/joystream/joystream-testnets)
 for details on which version is needed for which testnet.
 
 Your full node has been cleanly upgraded!
@@ -97,10 +97,10 @@ Fetch the testnet's `genesis.json` file into `joyd`'s config directory.
 
 ```bash
 mkdir -p $HOME/.joyd/config
-curl https://raw.githubusercontent.com/mnaamani/joystream-testnets/master/latest/genesis.json > $HOME/.joyd/config/genesis.json
+curl https://raw.githubusercontent.com/joystream/joystream-testnets/master/latest/genesis.json > $HOME/.joyd/config/genesis.json
 ```
 
-Note we use the `latest` directory in the [testnets repo](https://github.com/mnaamani/joystream-testnets)
+Note we use the `latest` directory in the [testnets repo](https://github.com/joystream/joystream-testnets)
 which contains details for the latest testnet. If you are connecting to a different testnet, ensure you get the right files.
 
 To verify the correctness of the configuration run:
@@ -111,7 +111,7 @@ joyd start
 
 ### Add Seed Nodes
 
-Your node needs to know how to find peers. You'll need to add healthy seed nodes to `$HOME/.joyd/config/config.toml`. The `testnets` repo contains links to the seed nodes for each testnet. If you are looking to join the running testnet please [check the repository for details](https://github.com/mnaamani/joystream-testnets) on which nodes to use.
+Your node needs to know how to find peers. You'll need to add healthy seed nodes to `$HOME/.joyd/config/config.toml`. The `testnets` repo contains links to the seed nodes for each testnet. If you are looking to join the running testnet please [check the repository for details](https://github.com/joystream/joystream-testnets) on which nodes to use.
 
 If those seeds aren't working, you can find more seeds and persistent peers on the [Cosmos Explorer](https://explorer.joystream.co/). Open the the `Full Nodes` pane and select nodes that do not have private (`10.x.x.x`) or [local IP addresses](https://en.wikipedia.org/wiki/Private_network). The `Persistent Peer` field contains the connection string. For best results use 4-6.
 

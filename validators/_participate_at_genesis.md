@@ -72,10 +72,10 @@ Fetch the `genesis.json` file into `joyd`'s config directory.
 
 ```bash
 mkdir -p $HOME/.joyd/config
-curl https://raw.githubusercontent.com/mnaamani/joystream-testnets/master/latest/genesis.json > $HOME/.joyd/config/genesis.json
+curl https://raw.githubusercontent.com/joystream/joystream-testnets/master/latest/genesis.json > $HOME/.joyd/config/genesis.json
 ```
 
-Note we use the `latest` directory in the [testnets repo](https://github.com/mnaamani/joystream-testnets)
+Note we use the `latest` directory in the [testnets repo](https://github.com/joystream/joystream-testnets)
 which contains details for the latest testnet. If you are connecting to a different testnet, ensure you get the right files.
 
 You also need to fetch the genesis transactions of all the other genesis validators. For now there is no repository where genesis transactions can be submitted by validators, but this will as soon as we try out this feature in a testnet.

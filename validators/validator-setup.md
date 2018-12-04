@@ -1,7 +1,7 @@
 # Validator Setup
 
 ::: tip
-Information on how to join the current testnet (`genesis.json` file and seeds) is held [in our `testnet` repo](https://github.com/mnaamani/joystream-testnets/tree/master/latest). Please check there if you are looking to join our latest testnet.
+Information on how to join the current testnet (`genesis.json` file and seeds) is held [in our `testnet` repo](https://github.com/joystream/joystream-testnets/tree/master/latest). Please check there if you are looking to join our latest testnet.
 :::
 
 Before setting up your validator node, make sure you've already gone through the [Join testnet](../join-tesnet.md) guide.

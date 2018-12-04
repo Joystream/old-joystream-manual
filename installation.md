@@ -17,10 +17,10 @@ echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile
 
   If you don't want to build from source you can download the binaries from:
 
-  https://github.com/mnaamani/joystream-builder/releases
+  https://github.com/joystream/joystream-builder/releases
 
 ```bash  
-  wget https://github.com/mnaamani/joystream-builder/releases/download/v0.27.0/linux_amd64.zip
+  wget https://github.com/joystream/joystream-builder/releases/download/v0.27.0/linux_amd64.zip
 
   unzip linux_amd64.zip
 
@@ -35,7 +35,7 @@ Here we'll use a script, which will build the latest stable release.
 
 ```bash
 cd ~
-git clone https://github.com/mnaamani/joystream-builder
+git clone https://github.com/joystream/joystream-builder
 cd joystream-builder
 ./build.sh
 ```
