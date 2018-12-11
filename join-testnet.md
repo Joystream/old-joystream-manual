@@ -44,7 +44,7 @@ minimum_fees = ""
 ```
 
 
-Your full node has been initialized! Please skip to [Genesis & Seeds](#genesis-seeds).
+Your full node has been initialized! Please skip to [Genesis & Seeds](#genesis--seeds).
 
 ## Upgrading From Previous Testnet
 
@@ -113,9 +113,9 @@ joyd start
 
 Your node needs to know how to find peers. You'll need to add healthy seed nodes to `$HOME/.joyd/config/config.toml`. The `testnets` repo contains links to the seed nodes for each testnet. If you are looking to join the running testnet please [check the repository for details](https://github.com/joystream/joystream-testnets) on which nodes to use.
 
-If those seeds aren't working, you can find more seeds and persistent peers on the [Cosmos Explorer](https://explorer.joystream.co/). Open the the `Full Nodes` pane and select nodes that do not have private (`10.x.x.x`) or [local IP addresses](https://en.wikipedia.org/wiki/Private_network). The `Persistent Peer` field contains the connection string. For best results use 4-6.
+The `Persistent Peer` field contains the connection string. For best results use 4-6.
 
-You can also ask for peers on the [Joystream Chat Room](https://chat.joystream.co)
+You can also ask for peers on the [Joystream Chat Room](https://chat.joystream.org)
 
 For more information on seeds and peers, you can [read this](https://github.com/tendermint/tendermint/blob/develop/docs/tendermint-core/using-tendermint.md#peers).
 
@@ -133,7 +133,7 @@ Check that everything is running smoothly:
 joycli status
 ```
 
-View the status of the network with the [Joystream Explorer](https://explorer.joystream.co). Once your full node syncs up to the current block height, you should see it appear on the [list of full nodes](https://explorer.joystream.co/validators). If it doesn't show up, that's ok--the Explorer does not connect to every node.
+View the status of the network with the [Joystream Explorer](http://explorer.joystream.org). Once your full node syncs up to the current block height, you should see it appear.
 
 ## Export State
 

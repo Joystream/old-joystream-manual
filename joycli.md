@@ -94,7 +94,7 @@ joycli show --multisig-threshold K name1 name2 name3 [...]
 
 #### Get Tokens
 
-The best way to get tokens is from the [Joystream Testnet Faucet](http://faucet.joystream.co:8080).
+The best way to get tokens is from the [Joystream Testnet Faucet](https://faucet.joystream.org).
 #### Query Account balance
 
 After receiving tokens to your address, you can view your account's balance by typing:
@@ -223,7 +223,7 @@ Please refer to the [Validator Setup](./validators/validator-setup.md) section f
 #### Delegate to a Validator
 
 You can delegate `joy` to a validator. These delegators can receive part of the validator's fee revenue.
-Read more about the [Token Model](https://github.com/cosmos/cosmos/raw/master/Cosmos_Token_Model.pdf).
+
 
 ##### Query Validators
 
@@ -262,7 +262,7 @@ where `[name]` is the name of the key you specified when you initialized `joyd`.
 While tokens are bonded, they are pooled with all the other bonded tokens in the network. Validators and delegators obtain a percentage of shares that equal their stake in this pool.
 
 ::: tip Note
-Don't use more `joy` thank you have! You can always get more by using the [Faucet](http://faucet.joystream.co:8080/)!
+Don't use more `joy` thank you have! You can always get more by using the [Faucet](https://faucet.joystream.org/)!
 :::
 
 ##### Query Delegations

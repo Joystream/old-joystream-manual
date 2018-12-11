@@ -21,7 +21,7 @@ joyd tendermint show-validator
 Next, craft your `joyd gentx` command:
 
 ::: warning Note
-Don't use more `joy` thank you have! You can always get more by using the [Faucet](http://faucet.joystream.co:8080/)!
+Don't use more `joy` thank you have! You can always get more by using the [Faucet](https://faucet.joystream.org/)!
 :::
 
 ```bash
@@ -103,7 +103,7 @@ Your validator is active if the following command returns anything:
 joycli query tendermint-validator-set | grep "$(joyd tendermint show-validator)"
 ```
 
-You should also be able to see your validator on the [Explorer](http://explorer.joystream.co:8080). You are looking for the `bech32` encoded `address` in the `~/.joyd/config/priv_validator.json` file.
+You should also be able to see your validator on the [Explorer](http://explorer.joystream.org). You are looking for the `bech32` encoded `address` in the `~/.joyd/config/priv_validator.json` file.
 
 ::: warning Note
 To be in the validator set, you need to have more total voting power than the 100th validator.

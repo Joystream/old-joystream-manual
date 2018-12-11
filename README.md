@@ -9,6 +9,10 @@ Welcome to Joystream. A user governed video platform.
 - [Join the current testnet](./join-testnet.md)
 - [Upgrade to a validator node](./validators/validator-setup.md)
 
+## Faucet and Block Explorer
+- [Faucet](https://faucet.joystream.org)
+- [Block Explorer](http://explorer.joystream.org)
+
 ## Additional resources
 - [CLI reference](./joycli.md)
 - [Keys](./keys.md)

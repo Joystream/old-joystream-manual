@@ -20,7 +20,7 @@ echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile
   https://github.com/joystream/joystream-builder/releases
 
 ```bash  
-  wget https://github.com/joystream/joystream-builder/releases/download/v0.27.0/linux_amd64.zip
+  wget https://github.com/joystream/joystream-builder/releases/download/v0.28.0-rc2/linux_amd64.zip
 
   unzip linux_amd64.zip
 
@@ -45,6 +45,7 @@ That will build the binaries for windows, linux and osx platforms under the `bin
 ```bash
 $ cp bin/linux_amd64/joy* ~/bin
 ```
+
 <a href="verify"></a>
 Verify that everything is OK:
 
