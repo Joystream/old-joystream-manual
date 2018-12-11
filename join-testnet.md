@@ -103,17 +103,13 @@ curl https://raw.githubusercontent.com/joystream/joystream-testnets/master/lates
 Note we use the `latest` directory in the [testnets repo](https://github.com/joystream/joystream-testnets)
 which contains details for the latest testnet. If you are connecting to a different testnet, ensure you get the right files.
 
-To verify the correctness of the configuration run:
-
-```bash
-joyd start
-```
+Next configure seed nodes to connect to.
 
 ### Add Seed Nodes
 
 Your node needs to know how to find peers. You'll need to add healthy seed nodes to `$HOME/.joyd/config/config.toml`. The `testnets` repo contains links to the seed nodes for each testnet. If you are looking to join the running testnet please [check the repository for details](https://github.com/joystream/joystream-testnets) on which nodes to use.
 
-The `Persistent Peer` field contains the connection string. For best results use 4-6.
+The `Persistent Peer` field contains the connection string.
 
 You can also ask for peers on the [Joystream Chat Room](https://chat.joystream.org)
 

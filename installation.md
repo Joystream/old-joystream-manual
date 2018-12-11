@@ -27,7 +27,14 @@ echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile
   cp linux_amd64/* ~/bin
 ```
 
-Jump to [verify everything is ok](#verify).
+Verify that everything is OK:
+
+```bash
+$ joyd version
+$ joycli version
+```
+
+You can now [run a full node](#run-a-full-node).
 
 ## Build from source
 Lets build and install the latest version of Joystream from source.
@@ -46,7 +53,6 @@ That will build the binaries for windows, linux and osx platforms under the `bin
 $ cp bin/linux_amd64/joy* ~/bin
 ```
 
-<a href="verify"></a>
 Verify that everything is OK:
 
 ```bash
